@@ -1,0 +1,19 @@
+body {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+* {transition: 0.2s ease-in-out; font-family: 'Montserrat', sans-serif;}
+
+.main-block {
+	font-size: 40pt;
+	color: white;
+	letter-spacing: 2px;
+	position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.main-block div:nth-of-type(2) {font-size: 22pt; margin-top: 10px;}
+
